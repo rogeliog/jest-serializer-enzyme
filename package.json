@@ -12,5 +12,9 @@
     "test"
   ],
   "author": "Rogelio Guzman",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependency": {
+    "enzyme": "^2.0.0",
+    "jest": "^17.0.0"
+  }
 }
