@@ -12,7 +12,7 @@ npm install --save-dev jest-serializer-enzyme
 #### Add it to your jest config
 ```json
 "jest": {
-  "snapshotSerializer": ["<rootDir>/node_modules/jest-serializer-enzyme"]
+  "snapshotSerializers": ["<rootDir>/node_modules/jest-serializer-enzyme"]
 }
 ```
 
