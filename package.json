@@ -13,5 +13,13 @@
   "peerDependency": {
     "enzyme": "^2.0.0",
     "jest": "^17.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogeliog/jest-serializer-enzyme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogeliog/jest-serializer-enzyme/issues"
+  },
+  "homepage": "https://github.com/rogeliog/jest-serializer-enzyme#readme"
 }
