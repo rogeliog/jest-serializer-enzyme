@@ -21,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/rogeliog/jest-serializer-enzyme/issues"
   },
-  "homepage": "https://github.com/rogeliog/jest-serializer-enzyme#readme"
+  "jest": {
+    "snapshotSerializers": ["<rootDir>"]
+  },
+  "homepage": "https://github.com/rogeliog/jest-serializer-enzyme#readme",
+  "devDependencies": {
+    "babel-jest": "^17.0.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "enzyme": "^2.6.0",
+    "jest": "^17.0.3",
+    "react": "^15.4.1",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-test-renderer": "^15.4.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
