@@ -3,9 +3,13 @@ var ReactWrapper = require("enzyme/ReactWrapper");
 
 module.exports = {
   test(val) {
-    return (val.constructor && (
-      (val.constructor.name === ShallowWrapper.name)
-      || (val.constructor.name === ReactWrapper.name)
+    // check for val.constructor to exist and if val.constructor.name
+    // equals either the shallow wrapper name OR the react wrapper (mount) name.
+    return (
+      val.constructor && (
+        (val.constructor.name === ShallowWrapper.name)
+        || (val.constructor.name === ReactWrapper.name)
+      )
     );
   },
   print(val, serialize, indent) {
