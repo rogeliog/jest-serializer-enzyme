@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.2.0 (November 7, 2016)
+
+### New Stuff
+- Added support for Enzyme's Mount [#11](https://github.com/rogeliog/jest-serializer-enzyme/pull/11)
+
 ## 0.1.3 (November 7, 2016)
 
 ### Fixes
