@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-enzyme",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A snapshot serializer for Ezyme",
   "main": "index.js",
   "keywords": [
@@ -22,7 +22,9 @@
     "url": "https://github.com/rogeliog/jest-serializer-enzyme/issues"
   },
   "jest": {
-    "snapshotSerializers": ["<rootDir>"]
+    "snapshotSerializers": [
+      "<rootDir>"
+    ]
   },
   "homepage": "https://github.com/rogeliog/jest-serializer-enzyme#readme",
   "devDependencies": {
