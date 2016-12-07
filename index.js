@@ -10,7 +10,11 @@ module.exports = {
 
     return doesMatch;
   },
-  print(val, serialize, indent) {
+  print(val) {
+    if (val.debug() === '') {
+      return 'null';
+    }
+
     return val.debug();
   }
 }

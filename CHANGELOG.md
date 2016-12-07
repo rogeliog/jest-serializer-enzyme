@@ -1,0 +1,16 @@
+# Change Log
+
+## 0.1.3 (November 7, 2016)
+
+### Fixes
+- Make serializer work with components that render null [#10](https://github.com/rogeliog/jest-serializer-enzyme/pull/10)
+
+## 0.1.2 (November 6, 2016)
+
+### Fixes
+- Fix some npm meta data [#5](https://github.com/rogeliog/jest-serializer-enzyme/pull/5)
+- Fix typos in README [#4](https://github.com/rogeliog/jest-serializer-enzyme/pull/4)
+
+## 0.1.1
+
+- Initial Release
