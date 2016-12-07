@@ -1,8 +1,14 @@
 var ShallowWrapper = require('enzyme/ShallowWrapper');
+var ReactWrapper = require("enzyme/ReactWrapper");
 
 module.exports = {
   test(val) {
-    return val.constructor && val.constructor.name === ShallowWrapper.name;
+    if (!val || !val.constructor) return false;
+
+    const doesMatch = (val.constructor.name === ShallowWrapper.name)
+      || (val.constructor.name === ReactWrapper.name);
+
+    return doesMatch;
   },
   print(val) {
     if (val.debug() === '') {
