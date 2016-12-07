@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-enzyme",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "A snapshot serializer for Ezyme",
   "main": "index.js",
   "keywords": [
