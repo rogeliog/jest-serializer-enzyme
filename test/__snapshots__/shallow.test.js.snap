@@ -1,0 +1,40 @@
+exports[`test Renders 1`] = `
+<div>
+<span>
+Hello
+</span>
+<Bar text="some text" />
+</div>
+`;
+
+exports[`test Renders components 1`] = `
+<div>
+<span>
+Hello
+</span>
+<Bar text="some text" />
+</div>
+`;
+
+exports[`test Renders components that render null 1`] = `null`;
+
+exports[`test Renders components when using find() and dive() 1`] = `
+<span>
+Hello
+</span>
+`;
+
+exports[`test Renders components when using find() and dive() 2`] = `
+<h1>
+some text
+</h1>
+`;
+
+exports[`test Renders nested components 1`] = `
+<div>
+<span>
+Hello
+</span>
+<Bar text="some text" />
+</div>
+`;
