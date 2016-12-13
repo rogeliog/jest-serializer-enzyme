@@ -1,6 +1,6 @@
 # jest-serializer-enzyme
 
-This is a serialzer for Enzyme backed by [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json)
+This is a serializer for Enzyme backed by [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json), I suggest looking at `enzyme-to-json` for the implementation details
 
 #### Install it
 ```
