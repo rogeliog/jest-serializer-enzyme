@@ -4,7 +4,8 @@ exports[`test Serializes components 1`] = `
     <span>
       Hello
     </span>
-    <Bar text="some text">
+    <Bar
+      text="some text">
       <h1>
         some text
       </h1>
@@ -22,7 +23,8 @@ exports[`test Serializes components when using find() 1`] = `
 `;
 
 exports[`test Serializes components when using find() 2`] = `
-<Bar text="some text">
+<Bar
+  text="some text">
   <h1>
     some text
   </h1>
