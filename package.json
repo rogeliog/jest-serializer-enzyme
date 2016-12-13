@@ -40,5 +40,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "enzyme-to-json": "^1.4.4"
   }
 }

@@ -1,8 +1,6 @@
 # jest-serializer-enzyme
 
-A snapshot serializer for Jest+Enzyme.
-
-![enzyme](https://cloud.githubusercontent.com/assets/574806/20911209/5e49982e-bb1b-11e6-85bb-987ae0d455ab.gif)
+This is a serialzer for Enzyme backed by [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json)
 
 #### Install it
 ```
