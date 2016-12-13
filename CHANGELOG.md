@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.0.0 (December 12, 2016)
+
+#### Moves to enzyme-to-json
+- From now on it is delegating all implementation details to enzyme-to-json
+
+#### Breaking changes
+- Snapshots are now indented, and will match enzyme-to-json
+
 ## 0.2.0 (November 7, 2016)
 
 ### New Stuff
