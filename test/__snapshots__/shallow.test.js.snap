@@ -8,7 +8,7 @@ exports[`test Serializes components 1`] = `
 </div>
 `;
 
-exports[`test Serializes components that render null 1`] = `null`;
+exports[`test Serializes components that render null 1`] = `""`;
 
 exports[`test Serializes components when using find() and dive() 1`] = `
 <span>
